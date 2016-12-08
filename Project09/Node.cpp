@@ -63,5 +63,6 @@ void Node::setBook(Book* _book)
 // Returns: None
 Node::~Node()
 {
-	//TODO
+	delete next;
+	delete book;
 }
